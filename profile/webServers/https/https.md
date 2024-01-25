@@ -74,7 +74,7 @@ You can obtain, and renew, a web certificate by enabling the ACME protocol for y
 
 For our work we are using the web service Caddy to act as a gateway to our different services and to host our static web application files. Caddy has ACME support built into it by default, and so all you need to do is configure Caddy with the domain name for your web server. Here are the steps to take.
 
-⚠ Note that this is one of the few modification that you will manually make to your web server. Most other production changes are completed with automated continuous integration processes.
+⚠ Note that this is one of the few modifications that you will manually make to your web server. Most other production changes are completed with automated continuous integration processes.
 
 1. Open a console window.
 1. Use the `ssh` console program to shell into your production environment server.
@@ -147,7 +147,7 @@ If you have not already leased a domain name then go back and review that instru
 
 Secure your web server communication by configuring Caddy to request a certificate from Let's Encrypt for you domain name.
 
-Submit a URL for web server's hostname to the Canvas assignment.
+Submit a URL for your web server's hostname to the Canvas assignment.
 
 Don't forget to update your GitHub startup repository notes.md with all of the things you learned and want to remember.
 
